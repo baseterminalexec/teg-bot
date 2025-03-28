@@ -2,7 +2,7 @@ import logging
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.utils.callback_data import CallbackData
-from bot.handlers import start, subscribe, confirm_payment, check_subscription_status, button_handler
+from bot.handlers import start, confirm_payment, check_subscription_status, button_handler
 from bot.payments import approve_subscription
 from database.database import init_db
 from config.config import TOKEN
